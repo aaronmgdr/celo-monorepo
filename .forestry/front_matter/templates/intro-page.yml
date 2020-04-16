@@ -1,4 +1,19 @@
 ---
 label: Intro Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: main_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Main Text
+  description: Opening Paragraph
