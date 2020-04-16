@@ -7,11 +7,10 @@ sections:
 - type: document
   path: packages/web/content
   label: Test
-  match: "**/*"
 - type: directory
   path: packages/web/content
   label: Kits
-  create: all
+  create: none
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
